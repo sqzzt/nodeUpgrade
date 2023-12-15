@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 
-mongoose.connect('mongodb+srv://migueld2:fwSycuX12zXFNzbS@cluster0.rb6ymxp.mongodb.net/mbareformas',{
+mongoose.connect('',{
     
   })
   .then(() => console.log('Conectado a base de datos!'))
